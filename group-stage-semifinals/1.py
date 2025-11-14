@@ -1,8 +1,8 @@
 
 # longest plateau
 # a plateau is just a sequence of consecutive elements that are the same
-# compared to other problems where a plateau must have strictly increasing elements, this problem doesnt really care about that
-# whenever a problem is about manipulating consecutive adjancent elements in a list, itertools.groupby
+# compared to other problems where a plateau must have strictly increasing adjacent (not the same of course) elements, this problem doesnt really care about that
+# whenever a problem is about manipulating consecutive adjacent elements in a list, itertools.groupby
 
 from itertools import groupby 
 
